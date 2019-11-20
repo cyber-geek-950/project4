@@ -21,15 +21,15 @@
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: $Purplemountainsmajesty;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: $coral;
 }
 
 .theme.col-3 {
-  background-color: #deb2ee;
+  background-color: $frenchlilac;
 }
 
 .theme.col-4 {
@@ -76,7 +76,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@include mq($tablet) {
 
 .container {
   max-width: 1400px;

@@ -10,6 +10,9 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  &:hover {
+    @include lighten-bg;
+  }
 }
 
 .default {

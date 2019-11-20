@@ -1,0 +1,12 @@
+// Media Query Mixin
+
+@mixin mq ($size) {
+    @media (min-width: $size) {
+        @content;
+    }
+}
+
+@mixin lighten-bg {
+    background-color: #000;
+    transition: 0.5 ease-in;
+}

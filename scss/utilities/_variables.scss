@@ -1,3 +1,11 @@
+$button-colors: ( 
+  default: #51ddfc,
+  success: #63cc82,
+  error: #e4757a,
+  warning: #fd7856,
+  info: #927bc1
+);
+
 // Colour variables
 $viking                     : #58e1c1;
 $grey                       : #777;
@@ -7,3 +15,4 @@ $frenchlilac                : #deb2ee;
 
 
 $tablet: 768px; // Media Query break point
+
